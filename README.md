@@ -1,4 +1,4 @@
-![WhatsApp Image 2025-10-19 at 14 38 14_c6d65b84](https://github.com/user-attachments/assets/3ba6f2e3-bf6b-43ff-ac05-a744df6cf372)![WhatsApp Image 2025-10-19 at 14 37 33_3982dea0](https://github.com/user-attachments/assets/e777ce50-4d91-436f-9c9a-6f3532902dec)# 🚀 MCA Insights Engine
+## MCA Insights Engine
 
 Turning Ministry of Corporate Affairs (MCA) datasets into a clean, interactive insight engine — complete with daily change tracking, enrichment, summaries, and a conversational chatbot.
 
@@ -78,10 +78,10 @@ python -c "from scripts import chatbot; print(chatbot.answer_query('Show new inc
 
 | Section        | Image                                                     |
 | -------------- | --------------------------------------------------------- |
-| Search Tab     | ![Search UI](![WhatsApp Image 2025-10-19 at 14 37 33_3982dea0](https://github.com/user-attachments/assets/0aa6193f-162a-446d-8113-e14c6dc86e3f))|
-| Chat Interface | ![Chat UI](![WhatsApp Image 2025-10-19 at 14 38 14_c6d65b84](https://github.com/user-attachments/assets/5677ba17-b352-4bc2-a398-d6758e0d8887))|
-| Summary Chart  | ![Summary Chart](![WhatsApp Image 2025-10-19 at 14 38 27_a6f5bb95](https://github.com/user-attachments/assets/41857347-a625-4ad8-a591-84af4cff754b))|
-| JSON Summary   | ![Summary JSON](![WhatsApp Image 2025-10-19 at 14 38 34_e785cbf2](https://github.com/user-attachments/assets/df2254b8-ca2d-4ada-b46c-6b354e6b8ee4))|
+| Search Tab     | (![WhatsApp Image 2025-10-19 at 14 37 33_3982dea0](https://github.com/user-attachments/assets/0aa6193f-162a-446d-8113-e14c6dc86e3f))|
+| Chat Interface | (![WhatsApp Image 2025-10-19 at 14 38 14_c6d65b84](https://github.com/user-attachments/assets/5677ba17-b352-4bc2-a398-d6758e0d8887))|
+| Summary Chart  | (![WhatsApp Image 2025-10-19 at 14 38 27_a6f5bb95](https://github.com/user-attachments/assets/41857347-a625-4ad8-a591-84af4cff754b))|
+| JSON Summary   | (![WhatsApp Image 2025-10-19 at 14 38 34_e785cbf2](https://github.com/user-attachments/assets/df2254b8-ca2d-4ada-b46c-6b354e6b8ee4))|
 
 🔐 Environment Configuration
 
