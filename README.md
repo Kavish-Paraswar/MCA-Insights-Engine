@@ -27,6 +27,15 @@ The **MCA Insights Engine** is a compact end-to-end data pipeline that:
 
 ---
 
+🧩 Tech Stack
+
+Languages: Python
+Frameworks: Streamlit, Pandas, Matplotlib
+AI/LLM (Optional): Google Gemini API
+Storage: CSV, JSON
+
+---
+
 mca_insights_engine/
 ├── data/
 │ ├── raw/ # Original MCA CSVs
@@ -54,11 +63,18 @@ mca_insights_engine/
 # From the project root
 cd .
 python -m venv .venv; .\.venv\Scripts\Activate.ps1
+
 pip install --upgrade pip
+
 pip install -r requirements.txt
+
 streamlit run .\scripts\app.py
+
 .\.venv\Scripts\Activate.ps1
-python -c "from scripts import chatbot; print(chatbot.answer_query('Show new incorporations in Maharashtra'))"
+
+python -c "from scripts import chatbot;
+
+print(chatbot.answer_query('Show new incorporations in Maharashtra'))"
 
 ---
 
@@ -91,7 +107,9 @@ GEMINI_API_KEY=your_gemini_api_key_here
 
  > Verify key detection
 
-python -c "from dotenv import load_dotenv; load_dotenv(); import os; print('Gemini key found:', bool(os.getenv('GEMINI_API_KEY')))"
+python -c "from dotenv import load_dotenv;
+load_dotenv();
+import os; print('Gemini key found:', bool(os.getenv('GEMINI_API_KEY')))"
 Keep .env private and add it to .gitignore.
 
 ---
@@ -108,11 +126,5 @@ The chatbot falls back to rule-based logic if no Gemini key is set.
 This project is open-sourced for educational and demonstration purposes.
 You may reuse or adapt the code with attribution.
 
-🧩 Tech Stack
-
-Languages: Python
-Frameworks: Streamlit, Pandas, Matplotlib
-AI/LLM (Optional): Google Gemini API
-Storage: CSV, JSON
 
 
