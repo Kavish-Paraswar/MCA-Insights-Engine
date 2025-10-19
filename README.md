@@ -37,21 +37,37 @@ Storage: CSV, JSON
 ---
 
 mca_insights_engine/
+
 ├── data/
+
 │ ├── raw/ # Original MCA CSVs
+
 │ ├── processed/ # Cleaned master data
+
 │ ├── change_logs/ # Daily change logs
+
 │ ├── enriched/ # Enriched datasets
+
 │ └── daily_summary_*.json
+
 ├── scripts/
+
 │ ├── integrate_data.py
+
 │ ├── detect_changes.py
+
 │ ├── enrich_data.py
+
 │ ├── generate_summary.py
+
 │ ├── chatbot.py
+
 │ └── app.py
+
 ├── requirements.txt
+
 ├── .env.example
+
 └── README.md
 
 
