@@ -1,0 +1,9 @@
+pandas
+numpy
+tqdm
+python-dateutil
+streamlit
+fastapi
+uvicorn
+google-generativeai
+python-dotenv
